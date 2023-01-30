@@ -1,0 +1,140 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #fff;
+  color: #000;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.banner-principal {
+  background-image: url(../img/moto1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: bottom;
+}
+
+.informacion-motos {
+  background: #000;
+  color: #fff;
+  padding: 40px 0px;
+  font-size: 18px;
+}
+
+.info-iconos span {
+  font-size: 30px;
+}
+
+.informacion-motos ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.informacion-motos ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.informacion-motos ul li {
+  list-style: none;
+}
+
+.contenedor-benners {
+  background-color: rgb(43, 46, 51);
+  box-sizing: border-box;
+  color: rgb(22, 23, 26);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 250px;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.banner-uno {
+  box-sizing: border-box;
+  width: 228px;
+  height: 128.141px;
+  margin: 10px;
+}
+
+.logo-moto img {
+  width: 50%;
+}
+
+.logo-moto {
+  text-align: right;
+  margin-right: 20px;
+}
+
+/*.banner-dos {
+  box-sizing: border-box;
+  width: 228px;
+  height: 128.141px;
+  margin: 10px;
+}
+
+.banner-dos {
+  width: 76.2344px;
+  height: 99.0938px;
+}
+
+.banner-tres {
+  width: 76.2344px;
+  height: 99.0938px;
+}
+
+.banner-cuatro {
+  width: 76.2344px;
+  height: 99.0938px;
+}
+
+.banner-cinco {
+  width: 76.2344px;
+  height: 99.0938px;
+}
+
+.banner-seis {
+  width: 76.2344px;
+  height: 99.0938px;
+}*/
+
+.banner-grande {
+  width: 48%;
+}
+
+.banner-chiquito {
+  width: 24%;
+}
+
+.banner img {
+  width: 100%;
+}
