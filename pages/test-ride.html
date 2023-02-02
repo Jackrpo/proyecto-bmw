@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW TEST RIDE</title>
+    <link rel="stylesheet" href="../estilos/style.css" />
+    <link rel="stylesheet" href="../estilos/style iconos.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><span class="icon-menu"></span> Menu</a>
+          </li>
+          <li>
+            <a href="#"><span class="icon-search"></span></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo-moto"><img src="../img/logo.jpg" alt="" /></div>
+    </header>
+
+    <section class="formulario-test-ride">
+      <h1>Agenda tu Test Ride.</h1>
+      <form>
+        <p>
+          <label for="name">Nombre:</label>
+          <input
+            type="text"
+            required
+            minlength="3"
+            maxlength="30"
+            name="name"
+            id="name"
+          />
+        </p>
+        <p>
+          <label for="last_name">Apellido:</label>
+          <input
+            type="text"
+            required
+            minlength="3"
+            maxlength="30"
+            name="last_name"
+            id="last_name"
+          />
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" required name="email" id="email" />
+        </p>
+        <p>
+          <label for="phone_number">Telefono:</label>
+          <input type="number" required name="phone_number" id="phone_number" />
+        </p>
+
+        <p>
+          <label for="gender">Escoge tu genero</label>
+          <select name="gender" id="gender">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+          </select>
+        </p>
+        <p>
+          <label for="aceptaTerminos">Acepto terminos y condiciones</label
+          ><input type="checkbox" name="aceptaTerminos" id="aceptaTerminos" />
+        </p>
+        <input type="submit" />
+      </form>
+    </section>
+  </body>
+</html>
