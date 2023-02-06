@@ -159,3 +159,55 @@ nav ul li a {
 .banner img {
   width: 100%;
 }
+
+
+/* test ride */
+
+.formulario-test-ride h1{
+  font-size: 50px;
+  padding: 20px;
+}
+
+
+.formulario-test-ride form{
+  padding: 20px;
+  margin-left: 120px;
+  width: 50%;
+}
+
+.formulario-test-ride p{
+  padding: 4px;
+}
+
+.formulario-test-ride form label{
+  width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+
+.formulario-test-ride form input{
+  padding: 7px;
+  border-radius: 0;
+  border: 1px solid #bcbcbc;
+  width: 50%;
+}
+
+.formulario-test-ride form select{
+  padding: 7px;
+  border-radius: 0;
+  border: 1px solid #bcbcbc;
+  width: 50%;
+}
+
+.btn-enviar input{
+  text-align: center;
+  margin-top: 20px;
+  background-color: #266ae8;
+  color: white;
+  border: none !important;
+  padding: 12px !important;
+}
+
+.btn-enviar {
+  text-align: center;
+}
