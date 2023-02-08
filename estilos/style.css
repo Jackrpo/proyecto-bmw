@@ -160,46 +160,44 @@ nav ul li a {
   width: 100%;
 }
 
-
 /* test ride */
 
-.formulario-test-ride h1{
+.formulario-test-ride h1 {
   font-size: 50px;
   padding: 20px;
 }
 
-
-.formulario-test-ride form{
+.formulario-test-ride form {
   padding: 20px;
   margin-left: 120px;
   width: 50%;
 }
 
-.formulario-test-ride p{
+.formulario-test-ride p {
   padding: 4px;
 }
 
-.formulario-test-ride form label{
+.formulario-test-ride form label {
   width: 30%;
-    display: inline-block;
-    text-align: right;
+  display: inline-block;
+  text-align: right;
 }
 
-.formulario-test-ride form input{
+.formulario-test-ride form input {
   padding: 7px;
   border-radius: 0;
   border: 1px solid #bcbcbc;
   width: 50%;
 }
 
-.formulario-test-ride form select{
+.formulario-test-ride form select {
   padding: 7px;
   border-radius: 0;
   border: 1px solid #bcbcbc;
   width: 50%;
 }
 
-.btn-enviar input{
+.btn-enviar input {
   text-align: center;
   margin-top: 20px;
   background-color: #266ae8;
@@ -210,4 +208,57 @@ nav ul li a {
 
 .btn-enviar {
   text-align: center;
+}
+
+@media (max-width: 1115px) {
+  .informacion-motos {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .contenedor-txt-img {
+    padding: 15px;
+  }
+  .contenedor-txt-img h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .info-iconos ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .informacion-motos {
+    padding: 30px;
+  }
+  .info-iconos ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .info-iconos ul li {
+    width: 20%;
+    text-align: center;
+  }
+  .n-motos ul {
+    gap: 20px;
+  }
+  .linea-texto {
+    margin-top: 10px;
+  }
+  .txt-chiquito {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contenedor-txt-img {
+    padding: 8px;
+  }
 }
